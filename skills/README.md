@@ -9,8 +9,13 @@ Two skills for prompt engineering:
 
 ### Claude.ai (browser)
 
-1. Download this repo as ZIP
-2. Extract `prompt-gen/` or `prompt-eval/` folder
+**Download:**
+- [prompt-gen.zip](https://github.com/vukhanhtruong/prompt-lab/releases/latest/download/prompt-gen.zip)
+- [prompt-eval.zip](https://github.com/vukhanhtruong/prompt-lab/releases/latest/download/prompt-eval.zip)
+
+**Install:**
+1. Download the zip file above
+2. Extract the folder
 3. Go to claude.ai > Sidebar > Customize > Skills > Upload a Skill
 4. Upload the extracted folder
 

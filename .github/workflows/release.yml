@@ -1,0 +1,28 @@
+name: Release Skills
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create zip files
+        run: |
+          zip -r prompt-gen.zip prompt-gen/
+          zip -r prompt-eval.zip prompt-eval/
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            prompt-gen.zip
+            prompt-eval.zip
+          generate_release_notes: true
