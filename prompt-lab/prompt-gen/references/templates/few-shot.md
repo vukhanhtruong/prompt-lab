@@ -1,7 +1,6 @@
 # Few-Shot
 
-Used by: [[references/tools/claude]], [[references/tools/chatgpt]], [[references/tools/gemini]]
-Patterns: [[references/patterns/format]]
+Patterns: [format](references/patterns/format.md)
 
 ## When to Use
 

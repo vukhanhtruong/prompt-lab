@@ -1,7 +1,6 @@
 # ComfyUI
 
-Used by: [[references/tools/stable-diffusion]]
-Patterns: [[references/patterns/format]]
+Patterns: [format](references/patterns/format.md)
 
 ## When to Use
 

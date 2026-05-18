@@ -1,8 +1,8 @@
 # DALL-E 3
 
 Type: Image
-Template: [[references/templates/visual-descriptor]]
-Patterns: [[references/patterns/format]]
+Template: [visual-descriptor](references/templates/visual-descriptor.md)
+Patterns: [format](references/patterns/format.md)
 
 ## Characteristics
 

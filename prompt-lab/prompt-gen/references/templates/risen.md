@@ -1,7 +1,6 @@
 # RISEN
 
-Used by: [[references/tools/claude]], [[references/tools/chatgpt]]
-Patterns: [[references/patterns/task]], [[references/patterns/scope]]
+Patterns: [task](references/patterns/task.md), [scope](references/patterns/scope.md)
 
 ## When to Use
 

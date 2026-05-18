@@ -6,37 +6,37 @@ Choose the template that matches the task type.
 
 | Template | Best For |
 |----------|----------|
-| [[references/templates/rtf]] | Simple one-shot tasks |
-| [[references/templates/co-star]] | Professional documents, business writing |
-| [[references/templates/risen]] | Complex multi-step projects |
-| [[references/templates/crispe]] | Creative work, brand voice |
-| [[references/templates/chain-of-thought]] | Logic, math, analysis, debugging |
-| [[references/templates/few-shot]] | Consistent structured output |
-| [[references/templates/file-scope]] | IDE code editing (Cursor, Copilot) |
-| [[references/templates/react-stop]] | Autonomous agents (Claude Code) |
-| [[references/templates/visual-descriptor]] | Image generation (Midjourney, DALL-E) |
-| [[references/templates/reference-image]] | Editing existing images |
-| [[references/templates/comfyui]] | ComfyUI/Stable Diffusion workflows |
-| [[references/templates/prompt-decompiler]] | Breaking down existing prompts |
-| [[references/templates/opus-task-brief]] | Complex tasks on Opus models |
+| [rtf](references/templates/rtf.md) | Simple one-shot tasks |
+| [co-star](references/templates/co-star.md) | Professional documents, business writing |
+| [risen](references/templates/risen.md) | Complex multi-step projects |
+| [crispe](references/templates/crispe.md) | Creative work, brand voice |
+| [chain-of-thought](references/templates/chain-of-thought.md) | Logic, math, analysis, debugging |
+| [few-shot](references/templates/few-shot.md) | Consistent structured output |
+| [file-scope](references/templates/file-scope.md) | IDE code editing (Cursor, Copilot) |
+| [react-stop](references/templates/react-stop.md) | Autonomous agents (Claude Code) |
+| [visual-descriptor](references/templates/visual-descriptor.md) | Image generation (Midjourney, DALL-E) |
+| [reference-image](references/templates/reference-image.md) | Editing existing images |
+| [comfyui](references/templates/comfyui.md) | ComfyUI/Stable Diffusion workflows |
+| [prompt-decompiler](references/templates/prompt-decompiler.md) | Breaking down existing prompts |
+| [opus-task-brief](references/templates/opus-task-brief.md) | Complex tasks on Opus models |
 
 ## Decision Tree
 
 1. Is this a code editing task in an IDE?
-   - Yes: [[references/templates/file-scope]]
+   - Yes: [file-scope](references/templates/file-scope.md)
 2. Is this an autonomous agent task?
-   - Yes: [[references/templates/react-stop]] or [[references/templates/opus-task-brief]]
+   - Yes: [react-stop](references/templates/react-stop.md) or [opus-task-brief](references/templates/opus-task-brief.md)
 3. Is this image generation?
-   - Yes: [[references/templates/visual-descriptor]] or [[references/templates/comfyui]]
+   - Yes: [visual-descriptor](references/templates/visual-descriptor.md) or [comfyui](references/templates/comfyui.md)
 4. Is this a simple, clear task?
-   - Yes: [[references/templates/rtf]]
+   - Yes: [rtf](references/templates/rtf.md)
 5. Is this professional/business writing?
-   - Yes: [[references/templates/co-star]]
+   - Yes: [co-star](references/templates/co-star.md)
 6. Is this a multi-step project?
-   - Yes: [[references/templates/risen]]
+   - Yes: [risen](references/templates/risen.md)
 7. Is this creative work with brand voice?
-   - Yes: [[references/templates/crispe]]
+   - Yes: [crispe](references/templates/crispe.md)
 8. Does it require reasoning/analysis?
-   - Yes: [[references/templates/chain-of-thought]]
+   - Yes: [chain-of-thought](references/templates/chain-of-thought.md)
 9. Is format easier to show than describe?
-   - Yes: [[references/templates/few-shot]]
+   - Yes: [few-shot](references/templates/few-shot.md)

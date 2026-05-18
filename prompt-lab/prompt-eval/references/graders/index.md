@@ -6,21 +6,21 @@ Choose the grader type that matches what you need to verify.
 
 | Grader | Use When | Speed | Determinism |
 |--------|----------|-------|-------------|
-| [[references/graders/code]] | Format, structure, exact matches | Fast | Deterministic |
-| [[references/graders/model]] | Subjective quality, tone, coherence | Slow | Non-deterministic |
-| [[references/graders/classification]] | Category/label validation | Fast | Deterministic |
-| [[references/graders/custom]] | Domain-specific logic | Varies | Depends |
+| [code](references/graders/code.md) | Format, structure, exact matches | Fast | Deterministic |
+| [model](references/graders/model.md) | Subjective quality, tone, coherence | Slow | Non-deterministic |
+| [classification](references/graders/classification.md) | Category/label validation | Fast | Deterministic |
+| [custom](references/graders/custom.md) | Domain-specific logic | Varies | Depends |
 
 ## Decision Tree
 
 1. Can the assertion be checked with string/regex/JSON operations?
-   - Yes: Use [[references/graders/code]]
+   - Yes: Use [code](references/graders/code.md)
 2. Is this a classification task with expected labels?
-   - Yes: Use [[references/graders/classification]]
+   - Yes: Use [classification](references/graders/classification.md)
 3. Does it require subjective judgment (quality, tone, coherence)?
-   - Yes: Use [[references/graders/model]]
+   - Yes: Use [model](references/graders/model.md)
 4. Does it need domain-specific logic?
-   - Yes: Use [[references/graders/custom]]
+   - Yes: Use [custom](references/graders/custom.md)
 
 ## Best Practices
 

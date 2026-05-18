@@ -1,7 +1,6 @@
 # Opus Task Brief
 
-Used by: [[references/tools/claude]], [[references/tools/claude-code]]
-Patterns: [[references/patterns/agentic]], [[references/patterns/task]]
+Patterns: [agentic](references/patterns/agentic.md), [task](references/patterns/task.md)
 
 ## When to Use
 

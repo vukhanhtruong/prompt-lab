@@ -1,7 +1,6 @@
 # Chain of Thought
 
-Used by: [[references/tools/claude]], [[references/tools/chatgpt]], [[references/tools/gemini]]
-Patterns: [[references/patterns/reasoning]]
+Patterns: [reasoning](references/patterns/reasoning.md)
 
 ## When to Use
 

@@ -1,7 +1,6 @@
 # ReAct + Stop Conditions
 
-Used by: [[references/tools/claude-code]]
-Patterns: [[references/patterns/agentic]], [[references/patterns/scope]]
+Patterns: [agentic](references/patterns/agentic.md), [scope](references/patterns/scope.md)
 
 ## When to Use
 

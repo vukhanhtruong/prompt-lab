@@ -1,8 +1,8 @@
 # Claude
 
 Type: LLM
-Template: [[references/templates/rtf]]
-Patterns: [[references/patterns/task]], [[references/patterns/context]]
+Template: [rtf](references/templates/rtf.md)
+Patterns: [task](references/patterns/task.md), [context](references/patterns/context.md)
 
 ## Characteristics
 

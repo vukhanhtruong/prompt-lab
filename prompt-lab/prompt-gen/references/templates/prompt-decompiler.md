@@ -1,7 +1,6 @@
 # Prompt Decompiler
 
-Used by: All tools
-Patterns: [[references/patterns/task]]
+Patterns: [task](references/patterns/task.md)
 
 ## When to Use
 

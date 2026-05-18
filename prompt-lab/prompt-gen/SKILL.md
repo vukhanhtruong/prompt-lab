@@ -42,23 +42,24 @@ For copywriting prompts include placeholders where relevant: [TONE], [AUDIENCE],
 
 Before writing any prompt, extract these 9 dimensions. Missing critical dimensions trigger clarifying questions (max 3).
 
-| Dimension | What to extract | Critical? |
-|-----------|----------------|-----------|
-| Task | Specific action — convert vague verbs to precise operations | Always |
-| Target tool | Which AI system receives this prompt | Always |
-| Output format | Shape, length, structure of the result | Always |
-| Constraints | What MUST and MUST NOT happen | If complex |
-| Input | What the user provides alongside the prompt | If applicable |
-| Context | Domain, project state, prior decisions | If session has history |
-| Audience | Who reads the output, their technical level | If user-facing |
-| Success criteria | How to know the prompt worked | If task is complex |
-| Examples | Desired input/output pairs for pattern lock | If format-critical |
+| Dimension        | What to extract                                             | Critical?              |
+| ---------------- | ----------------------------------------------------------- | ---------------------- |
+| Task             | Specific action — convert vague verbs to precise operations | Always                 |
+| Target tool      | Which AI system receives this prompt                        | Always                 |
+| Output format    | Shape, length, structure of the result                      | Always                 |
+| Constraints      | What MUST and MUST NOT happen                               | If complex             |
+| Input            | What the user provides alongside the prompt                 | If applicable          |
+| Context          | Domain, project state, prior decisions                      | If session has history |
+| Audience         | Who reads the output, their technical level                 | If user-facing         |
+| Success criteria | How to know the prompt worked                               | If task is complex     |
+| Examples         | Desired input/output pairs for pattern lock                 | If format-critical     |
 
 ### Step 2: Route to Tool
 
-Identify the target tool and load its profile from [[references/tools/index]].
+Identify the target tool and load its profile from [index](references/tools/index.md).
 
 Each tool profile specifies:
+
 - Tool type (LLM, Reasoning, Agentic, IDE, Image)
 - Recommended template
 - Relevant patterns to check
@@ -66,15 +67,16 @@ Each tool profile specifies:
 
 ### Step 3: Load Template
 
-Follow the template link from the tool profile. Templates are in [[references/templates/index]].
+Follow the template link from the tool profile. Templates are in [index](references/templates/index.md).
 
 Apply the template structure to the extracted intent dimensions.
 
 ### Step 4: Check Patterns
 
-Review the prompt against diagnostic patterns in [[references/patterns/index]].
+Review the prompt against diagnostic patterns in [index](references/patterns/index.md).
 
 Each pattern has:
+
 - **Detect:** How to identify the problem
 - **Risk:** Why it causes re-prompts
 - **Fix:** How to correct it
@@ -82,6 +84,14 @@ Each pattern has:
 ### Step 5: Output Prompt
 
 Deliver the final prompt in the output format specified in CORE RULES.
+
+### Step 6: Save (Optional, Claude Code only)
+
+If running in Claude Code, ask the user: "Save this prompt to `prompt_lab/prompts/<name>.txt`?"
+
+If yes, write the prompt block (not the strategy line) to that path. Create the directory if missing.
+
+Skip this step on Claude.ai browser (no file system access).
 
 ---
 
@@ -101,10 +111,13 @@ Before delivering, verify:
 ## References
 
 ### Tools
-- [[references/tools/index]]
+
+- [index](references/tools/index.md)
 
 ### Templates
-- [[references/templates/index]]
+
+- [index](references/templates/index.md)
 
 ### Patterns
-- [[references/patterns/index]]
+
+- [index](references/patterns/index.md)

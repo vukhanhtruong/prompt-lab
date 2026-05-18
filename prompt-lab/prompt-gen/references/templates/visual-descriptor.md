@@ -1,7 +1,6 @@
 # Visual Descriptor
 
-Used by: [[references/tools/midjourney]], [[references/tools/dalle]]
-Patterns: [[references/patterns/format]]
+Patterns: [format](references/patterns/format.md)
 
 ## When to Use
 

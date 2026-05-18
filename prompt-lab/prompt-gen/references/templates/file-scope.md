@@ -1,7 +1,6 @@
 # File-Scope
 
-Used by: [[references/tools/cursor]], [[references/tools/copilot]]
-Patterns: [[references/patterns/scope]], [[references/patterns/agentic]]
+Patterns: [scope](references/patterns/scope.md), [agentic](references/patterns/agentic.md)
 
 ## When to Use
 

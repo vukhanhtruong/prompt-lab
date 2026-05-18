@@ -1,8 +1,8 @@
 # Stable Diffusion / SDXL
 
 Type: Image
-Template: [[references/templates/comfyui]]
-Patterns: [[references/patterns/format]]
+Template: [comfyui](references/templates/comfyui.md)
+Patterns: [format](references/patterns/format.md)
 
 ## Characteristics
 

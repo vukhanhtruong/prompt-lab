@@ -17,11 +17,14 @@ Two skills for prompt engineering:
 ### Claude Code
 
 ```bash
-# Install one skill
-npx skills install vukhanhtruong/prompt-lab/prompt-gen
+# Install prompt-gen skill
+npx skills install vukhanhtruong/prompt-lab --skill prompt-gen --agent claude-code -y
+
+# Install prompt-eval skill
+npx skills install vukhanhtruong/prompt-lab --skill prompt-eval --agent claude-code -y
 
 # Install both skills
-npx skills install vukhanhtruong/prompt-lab
+npx skills install vukhanhtruong/prompt-lab --agent claude-code -y
 ```
 
 ## Usage
@@ -39,6 +42,7 @@ I need a Midjourney prompt for a cyberpunk cityscape
 ```
 
 The skill will:
+
 1. Identify the target tool
 2. Extract your intent
 3. Apply the appropriate template
@@ -58,6 +62,7 @@ Test my prompt in prompt_lab/prompts/summarizer.txt
 ```
 
 The skill will:
+
 1. Understand what the prompt should do
 2. Design test cases (happy path, edge cases, adversarial)
 3. Choose appropriate graders
@@ -85,36 +90,40 @@ prompt-lab/
 
 ## Supported Tools (prompt-gen)
 
-| Type | Tools |
-|------|-------|
-| LLM | Claude, ChatGPT, Gemini |
-| Reasoning | O3 |
-| Agentic | Claude Code |
-| IDE | Cursor, Copilot |
-| Image | Midjourney, DALL-E, Stable Diffusion |
+| Type      | Tools                                |
+| --------- | ------------------------------------ |
+| LLM       | Claude, ChatGPT, Gemini              |
+| Reasoning | O3                                   |
+| Agentic   | Claude Code                          |
+| IDE       | Cursor, Copilot                      |
+| Image     | Midjourney, DALL-E, Stable Diffusion |
 
 ## Templates (prompt-gen)
 
-| Template | Best For |
-|----------|----------|
-| RTF | Simple one-shot tasks |
-| CO-STAR | Professional documents |
-| RISEN | Multi-step projects |
-| CRISPE | Creative work, brand voice |
-| Chain of Thought | Logic, math, debugging |
-| Few-Shot | Consistent structured output |
-| File-Scope | IDE code editing |
-| ReAct + Stop | Autonomous agents |
-| Visual Descriptor | Image generation |
+| Template          | Best For                              |
+| ----------------- | ------------------------------------- |
+| RTF               | Simple one-shot tasks                 |
+| CO-STAR           | Professional documents                |
+| RISEN             | Multi-step projects                   |
+| CRISPE            | Creative work, brand voice            |
+| Chain of Thought  | Logic, math, debugging                |
+| Few-Shot          | Consistent structured output          |
+| File-Scope        | IDE code editing (Cursor, Copilot)    |
+| ReAct + Stop      | Autonomous agents (Claude Code)       |
+| Opus Task Brief   | Complex tasks on Opus models          |
+| Visual Descriptor | Image generation (Midjourney, DALL-E) |
+| Reference Image   | Editing existing images               |
+| ComfyUI           | ComfyUI/Stable Diffusion workflows    |
+| Prompt Decompiler | Breaking down existing prompts        |
 
 ## Graders (prompt-eval)
 
-| Grader | Use When |
-|--------|----------|
-| Code | Deterministic checks (contains, regex, json) |
-| Model | Subjective criteria (tone, quality) |
-| Classification | Expected label must match |
-| Custom | Domain-specific logic |
+| Grader         | Use When                                     |
+| -------------- | -------------------------------------------- |
+| Code           | Deterministic checks (contains, regex, json) |
+| Model          | Subjective criteria (tone, quality)          |
+| Classification | Expected label must match                    |
+| Custom         | Domain-specific logic                        |
 
 ## License
 

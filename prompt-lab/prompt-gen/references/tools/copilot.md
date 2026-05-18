@@ -1,8 +1,8 @@
 # GitHub Copilot
 
 Type: IDE
-Template: [[references/templates/file-scope]]
-Patterns: [[references/patterns/scope]]
+Template: [file-scope](references/templates/file-scope.md)
+Patterns: [scope](references/patterns/scope.md)
 
 ## Characteristics
 

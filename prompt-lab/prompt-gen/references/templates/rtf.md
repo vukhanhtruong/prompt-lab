@@ -1,7 +1,6 @@
 # RTF (Role-Task-Format)
 
-Used by: [[references/tools/claude]], [[references/tools/chatgpt]], [[references/tools/gemini]]
-Patterns: [[references/patterns/task]]
+Patterns: [task](references/patterns/task.md)
 
 ## When to Use
 

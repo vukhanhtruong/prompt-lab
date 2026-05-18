@@ -1,8 +1,8 @@
 # Claude Code
 
 Type: Agentic
-Template: [[references/templates/react-stop]]
-Patterns: [[references/patterns/agentic]], [[references/patterns/scope]]
+Template: [react-stop](references/templates/react-stop.md)
+Patterns: [agentic](references/patterns/agentic.md), [scope](references/patterns/scope.md)
 
 ## Characteristics
 

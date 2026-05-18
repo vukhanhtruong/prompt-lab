@@ -6,12 +6,12 @@
 
 | Category | Patterns | Focus |
 |----------|----------|-------|
-| [[references/patterns/task]] | 7 | Vague tasks, missing criteria |
-| [[references/patterns/context]] | 6 | Assumed knowledge, missing history |
-| [[references/patterns/format]] | 6 | Output structure, length, style |
-| [[references/patterns/scope]] | 6 | Boundaries, file paths, constraints |
-| [[references/patterns/reasoning]] | 5 | CoT usage, grounding, memory |
-| [[references/patterns/agentic]] | 7 | Agent state, stop conditions, autonomy |
+| [task](references/patterns/task.md) | 7 | Vague tasks, missing criteria |
+| [context](references/patterns/context.md) | 6 | Assumed knowledge, missing history |
+| [format](references/patterns/format.md) | 6 | Output structure, length, style |
+| [scope](references/patterns/scope.md) | 6 | Boundaries, file paths, constraints |
+| [reasoning](references/patterns/reasoning.md) | 5 | CoT usage, grounding, memory |
+| [agentic](references/patterns/agentic.md) | 7 | Agent state, stop conditions, autonomy |
 
 ## How to Use
 

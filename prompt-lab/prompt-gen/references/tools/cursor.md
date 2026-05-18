@@ -1,8 +1,8 @@
 # Cursor
 
 Type: IDE
-Template: [[references/templates/file-scope]]
-Patterns: [[references/patterns/agentic]], [[references/patterns/scope]]
+Template: [file-scope](references/templates/file-scope.md)
+Patterns: [agentic](references/patterns/agentic.md), [scope](references/patterns/scope.md)
 
 ## Characteristics
 

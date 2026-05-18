@@ -1,7 +1,6 @@
 # Reference Image Editing
 
-Used by: [[references/tools/midjourney]], [[references/tools/dalle]], [[references/tools/stable-diffusion]]
-Patterns: [[references/patterns/format]]
+Patterns: [format](references/patterns/format.md)
 
 ## When to Use
 

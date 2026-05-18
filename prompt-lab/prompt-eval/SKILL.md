@@ -1,7 +1,7 @@
 ---
 name: prompt-eval
 version: 1.0.0
-description: Evaluates prompts using Anthropic's methodology. Activates when user asks to evaluate, test, or grade a prompt's performance.
+description: Evaluates prompts using Anthropic's methodology. Activates only when the user explicitly asks to evaluate, test, grade, or measure a prompt's performance.
 ---
 
 ## CORE RULES
@@ -76,7 +76,7 @@ Create minimum 3 test cases:
 
 ### Step 4: Choose Graders
 
-Select from [[references/graders/index]]:
+Select from [index](references/graders/index.md):
 
 | Grader | Use When |
 |--------|----------|
@@ -108,6 +108,16 @@ Output in the format specified in CORE RULES:
 - Overall statistics
 - Specific recommendations for improvement
 
+### Step 8: Save (Optional, Claude Code only)
+
+If running in Claude Code, ask the user: "Save evaluation to `prompt_lab/evals/<name>/`?"
+
+If yes, write:
+- `prompt_lab/evals/<name>/prompt.txt` — the evaluated prompt
+- `prompt_lab/evals/<name>/results.json` — scores and per-test details
+
+Create directories if missing. Skip on Claude.ai browser.
+
 ---
 
 ## OUTPUT LOCK
@@ -125,7 +135,7 @@ Before delivering, verify:
 ## References
 
 ### Graders
-- [[references/graders/index]]
+- [index](references/graders/index.md)
 
 ### Assertions
-- [[references/assertions/index]]
+- [index](references/assertions/index.md)

@@ -1,7 +1,6 @@
 # CO-STAR
 
-Used by: [[references/tools/claude]], [[references/tools/chatgpt]], [[references/tools/gemini]]
-Patterns: [[references/patterns/context]], [[references/patterns/format]]
+Patterns: [context](references/patterns/context.md), [format](references/patterns/format.md)
 
 ## When to Use
 

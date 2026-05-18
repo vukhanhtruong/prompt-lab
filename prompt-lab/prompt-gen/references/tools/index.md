@@ -6,26 +6,26 @@ Select the tool profile that matches the user's target AI system.
 
 | Type | Tools |
 |------|-------|
-| LLM | [[references/tools/claude]], [[references/tools/chatgpt]], [[references/tools/gemini]] |
-| Reasoning | [[references/tools/o3]] |
-| Agentic | [[references/tools/claude-code]] |
-| IDE | [[references/tools/cursor]], [[references/tools/copilot]] |
-| Image | [[references/tools/midjourney]], [[references/tools/dalle]], [[references/tools/stable-diffusion]] |
+| LLM | [claude](references/tools/claude.md), [chatgpt](references/tools/chatgpt.md), [gemini](references/tools/gemini.md) |
+| Reasoning | [o3](references/tools/o3.md) |
+| Agentic | [claude-code](references/tools/claude-code.md) |
+| IDE | [cursor](references/tools/cursor.md), [copilot](references/tools/copilot.md) |
+| Image | [midjourney](references/tools/midjourney.md), [dalle](references/tools/dalle.md), [stable-diffusion](references/tools/stable-diffusion.md) |
 
 ## Quick Reference
 
 | Tool | Template | Key Patterns |
 |------|----------|--------------|
-| claude | [[references/templates/rtf]] | task, context |
-| claude-code | [[references/templates/file-scope]] | agentic, scope |
-| chatgpt | [[references/templates/rtf]] | task, context |
-| o3 | [[references/templates/chain-of-thought]] | reasoning |
-| gemini | [[references/templates/rtf]] | task, context |
-| cursor | [[references/templates/file-scope]] | agentic, scope |
-| copilot | [[references/templates/file-scope]] | scope |
-| midjourney | [[references/templates/visual-descriptor]] | format |
-| dalle | [[references/templates/visual-descriptor]] | format |
-| stable-diffusion | [[references/templates/comfyui]] | format |
+| claude | [rtf](references/templates/rtf.md) | task, context |
+| claude-code | [react-stop](references/templates/react-stop.md) | agentic, scope |
+| chatgpt | [rtf](references/templates/rtf.md) | task, context |
+| o3 | [chain-of-thought](references/templates/chain-of-thought.md) | reasoning |
+| gemini | [rtf](references/templates/rtf.md) | task, context |
+| cursor | [file-scope](references/templates/file-scope.md) | agentic, scope |
+| copilot | [file-scope](references/templates/file-scope.md) | scope |
+| midjourney | [visual-descriptor](references/templates/visual-descriptor.md) | format |
+| dalle | [visual-descriptor](references/templates/visual-descriptor.md) | format |
+| stable-diffusion | [comfyui](references/templates/comfyui.md) | format |
 
 ## Decision Tree
 
