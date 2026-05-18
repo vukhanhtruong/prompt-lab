@@ -12,13 +12,15 @@ if [ "$CURRENT_BRANCH" != "develop" ]; then
   exit 1
 fi
 
-# Backup skills/
+# Backup skills/ and .github/
 cp -r skills /tmp/skills-publish
+cp -r .github /tmp/github-publish
 
 # Switch to main, update contents
 git checkout main
-rm -rf prompt-eval prompt-gen LICENSE README.md
+rm -rf prompt-eval prompt-gen LICENSE README.md .github
 cp -r /tmp/skills-publish/* .
+cp -r /tmp/github-publish .github
 
 # Commit and push
 git add -A
@@ -31,5 +33,5 @@ else
 fi
 
 # Cleanup and return
-rm -rf /tmp/skills-publish
+rm -rf /tmp/skills-publish /tmp/github-publish
 git checkout develop
