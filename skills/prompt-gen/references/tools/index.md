@@ -16,11 +16,12 @@ Select the tool profile that matches the user's target AI system.
 
 | Tool | Template | Key Patterns |
 |------|----------|--------------|
-| claude | [rtf](references/templates/rtf.md) | task, context |
+| claude (simple) | [rtf](references/templates/rtf.md) | task, context |
+| claude (complex/Opus) | [opus-task-brief](references/templates/opus-task-brief.md) | task, context |
 | claude-code (complex) | [opus-task-brief](references/templates/opus-task-brief.md) | agentic, scope |
 | claude-code (simple) | [react-stop](references/templates/react-stop.md) | agentic, scope |
 | chatgpt | [rtf](references/templates/rtf.md) | task, context |
-| o3 | [chain-of-thought](references/templates/chain-of-thought.md) | reasoning |
+| o3 / reasoning models | [rtf](references/templates/rtf.md) (minimal) | reasoning |
 | gemini | [rtf](references/templates/rtf.md) | task, context |
 | cursor | [file-scope](references/templates/file-scope.md) | agentic, scope |
 | copilot | [file-scope](references/templates/file-scope.md) | scope |

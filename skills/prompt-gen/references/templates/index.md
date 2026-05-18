@@ -38,6 +38,7 @@ Choose the template that matches the task type.
 7. Is this creative work with brand voice?
    - Yes: [crispe](references/templates/crispe.md)
 8. Does it require reasoning/analysis?
-   - Yes: [chain-of-thought](references/templates/chain-of-thought.md)
+   - On standard LLMs (Claude, ChatGPT, Gemini): [chain-of-thought](references/templates/chain-of-thought.md)
+   - On reasoning models (O3, O4-mini, DeepSeek-R1): [rtf](references/templates/rtf.md) — NEVER add CoT
 9. Is format easier to show than describe?
    - Yes: [few-shot](references/templates/few-shot.md)
