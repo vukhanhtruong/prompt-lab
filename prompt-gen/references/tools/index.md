@@ -17,7 +17,8 @@ Select the tool profile that matches the user's target AI system.
 | Tool | Template | Key Patterns |
 |------|----------|--------------|
 | claude | [rtf](references/templates/rtf.md) | task, context |
-| claude-code | [react-stop](references/templates/react-stop.md) | agentic, scope |
+| claude-code (complex) | [opus-task-brief](references/templates/opus-task-brief.md) | agentic, scope |
+| claude-code (simple) | [react-stop](references/templates/react-stop.md) | agentic, scope |
 | chatgpt | [rtf](references/templates/rtf.md) | task, context |
 | o3 | [chain-of-thought](references/templates/chain-of-thought.md) | reasoning |
 | gemini | [rtf](references/templates/rtf.md) | task, context |
